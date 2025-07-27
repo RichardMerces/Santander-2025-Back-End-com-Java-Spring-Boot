@@ -1,19 +1,19 @@
 plugins {
 	id 'java'
 	id 'application'
-	id 'org.springframework.boot' version '3.5.4'
+	id 'org.springframework.boot' version '3.2.7'
 	id 'io.spring.dependency-management' version '1.1.7'
 }
 
 application {
-    mainClass = 'dio.me.domain.Application'
+    mainClass = 'dio.me.Application'
 }
 
 group = 'dio.me'
 version = '0.0.1-SNAPSHOT'
 
 springBoot {
-    mainClass = 'dio.me.domain.Application'
+    mainClass = 'dio.me.Application'
 }
 
 java {
@@ -30,7 +30,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	// OpenAPI (Swagger) https://github.com/springdoc/springdoc-openapi
-	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'
 	
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'org.postgresql:postgresql'
