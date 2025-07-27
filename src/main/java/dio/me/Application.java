@@ -1,4 +1,4 @@
-package dio.me.domain;
+package dio.me;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.servers.Server;
